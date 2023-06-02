@@ -6,5 +6,6 @@
 #include  "tree.h"
 
 std::vector<char> getPerm(const Tree& tree, int n) {
-  // напишите реализацию
+    n = n - 1;
+    return tree.shifts[n];
 }

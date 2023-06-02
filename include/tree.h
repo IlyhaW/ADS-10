@@ -37,8 +37,7 @@ class Tree {
             Changes(i);
         }
     }
-
-public:
+ public:
     std::vector<std::vector<char>> shifts;
     explicit Tree(std::vector<char> val) {
         root = new Node;
